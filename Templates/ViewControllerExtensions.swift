@@ -14,13 +14,12 @@ extension UIViewController {
 	
 	func presentSimpleAlert(withTitle title:Title, andMessage message:Message) {
 		
-		dispatch(dispatch_get_main_queue()) {
-			
-			let alertVC = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-			let cancel = UIAlertAction(title: "Ok", style: .Cancel, handler: nil)
+		DispatchQueue.main.async {
+			let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
+			let cancel = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
 			alertVC.addAction(cancel)
 			
-			self.presentViewController(alertVC, animated: true, completion: nil)
+			self.present(alertVC, animated: true, completion: nil)
 			
 		}
 		
