@@ -12,7 +12,7 @@ import UIKit
 //Presenting Alerts
 extension UIViewController {
 	
-	func presentSimpleAlert(withTitle title:Title, andMessage message:Message) {
+	func presentSimpleAlert(with title:Title, and message:Message) {
 		
 		DispatchQueue.main.async {
 			let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
