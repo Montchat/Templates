@@ -19,6 +19,7 @@
 		FC595DD51E1C2409007A07B1 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD41E1C2409007A07B1 /* Typealiases.swift */; };
 		FC595DD91E1C2919007A07B1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD81E1C2919007A07B1 /* UIView.swift */; };
 		FC595DDB1E1C2F75007A07B1 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DDA1E1C2F75007A07B1 /* UserDefaultsExtension.swift */; };
+		FC595DDD1E1C3388007A07B1 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DDC1E1C3388007A07B1 /* ArrayExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FC595DD41E1C2409007A07B1 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		FC595DD81E1C2919007A07B1 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		FC595DDA1E1C2F75007A07B1 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		FC595DDC1E1C3388007A07B1 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Templates/ArrayExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		FC595D951E1C22E0007A07B1 = {
 			isa = PBXGroup;
 			children = (
+				FC595DDC1E1C3388007A07B1 /* ArrayExtensions.swift */,
 				FC595DA01E1C22E0007A07B1 /* Templates */,
 				FC595DB81E1C22E1007A07B1 /* TemplatesTests */,
 				FC595DC31E1C22E1007A07B1 /* TemplatesUITests */,
@@ -284,6 +287,7 @@
 				FC595DD91E1C2919007A07B1 /* UIView.swift in Sources */,
 				FC595DDB1E1C2F75007A07B1 /* UserDefaultsExtension.swift in Sources */,
 				FC595DAA1E1C22E0007A07B1 /* Templates.xcdatamodeld in Sources */,
+				FC595DDD1E1C3388007A07B1 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
