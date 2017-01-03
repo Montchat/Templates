@@ -14,7 +14,7 @@ import UIKit
 //Presenting Alerts
 extension UIViewController {
 	
-	func presentSimpleAlert(with title:Title, and message:Message) {
+	internal func presentSimpleAlert(with title:Title, and message:Message) {
 		
 		DispatchQueue.main.async {
 			let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -24,6 +24,25 @@ extension UIViewController {
 			self.present(alertVC, animated: true, completion: nil)
 			
 		}
+		
+	}
+	
+}
+
+//Presenting Storyboards & View Controllers
+extension UIViewController {
+	
+	//Use this enum structure to store all of your storyboard names. Will save you time down the line if you add them here, then throughout your app.
+	enum StoryBoardName : String {
+		case Main = "Main"
+		
+	}
+	
+	internal func presentStoryboard(with name: StoryBoardName) {
+		
+		guard let storyboard = UIStoryboard(name: name.rawValue, bundle: nil).instantiateInitialViewController() else { return }
+		
+		present(storyboard, animated: true, completion: nil)
 		
 	}
 	
