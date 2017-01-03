@@ -69,10 +69,6 @@ typealias Hour = Int
 typealias Minute = Int
 typealias Second = Int
 
-//UserDefaults
-typealias Key = String
-typealias Value = AnyObject
-
 //UserInfo
 typealias Email = String
 typealias Password = String
