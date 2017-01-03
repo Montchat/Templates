@@ -18,6 +18,7 @@
 		FC595DD31E1C22FA007A07B1 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */; };
 		FC595DD51E1C2409007A07B1 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD41E1C2409007A07B1 /* Typealiases.swift */; };
 		FC595DD91E1C2919007A07B1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD81E1C2919007A07B1 /* UIView.swift */; };
+		FC595DDB1E1C2F75007A07B1 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DDA1E1C2F75007A07B1 /* UserDefaultsExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		FC595DD41E1C2409007A07B1 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		FC595DD81E1C2919007A07B1 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FC595DDA1E1C2F75007A07B1 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				FC595DA11E1C22E0007A07B1 /* AppDelegate.swift */,
 				FC595DA31E1C22E0007A07B1 /* ViewController.swift */,
 				FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */,
+				FC595DDA1E1C2F75007A07B1 /* UserDefaultsExtension.swift */,
 				FC595DD81E1C2919007A07B1 /* UIView.swift */,
 				FC595DD41E1C2409007A07B1 /* Typealiases.swift */,
 				FC595DA51E1C22E0007A07B1 /* Main.storyboard */,
@@ -279,6 +282,7 @@
 				FC595DD51E1C2409007A07B1 /* Typealiases.swift in Sources */,
 				FC595DA21E1C22E0007A07B1 /* AppDelegate.swift in Sources */,
 				FC595DD91E1C2919007A07B1 /* UIView.swift in Sources */,
+				FC595DDB1E1C2F75007A07B1 /* UserDefaultsExtension.swift in Sources */,
 				FC595DAA1E1C22E0007A07B1 /* Templates.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +534,7 @@
 				FC595DCB1E1C22E1007A07B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC595DCC1E1C22E1007A07B1 /* Build configuration list for PBXNativeTarget "TemplatesTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				FC595DCE1E1C22E1007A07B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC595DCF1E1C22E1007A07B1 /* Build configuration list for PBXNativeTarget "TemplatesUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				FC595DD11E1C22E1007A07B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
