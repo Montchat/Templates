@@ -8,9 +8,6 @@
 
 import UIKit
 
-//Activity Indicators and Blur Views
-//**need to add
-
 //Presenting Alerts
 extension UIViewController {
 	
