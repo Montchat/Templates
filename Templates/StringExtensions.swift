@@ -8,6 +8,19 @@
 
 import Foundation
 
+//Removing Characters
+//**** NEED TO ADD 
+
+extension String {
+//Formatting Phone Numbers 
+//**** NEED TO ADD
+	
+}
+
+
+
+
+//Validating
 extension String {
 	
 	internal func validateEmail() -> Bool {
@@ -17,6 +30,5 @@ extension String {
 		return emailPredicate.evaluate(with: self)
 		
 	}
-
 	
 }
