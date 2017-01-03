@@ -16,6 +16,7 @@
 		FC595DBA1E1C22E1007A07B1 /* TemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DB91E1C22E1007A07B1 /* TemplatesTests.swift */; };
 		FC595DC51E1C22E1007A07B1 /* TemplatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DC41E1C22E1007A07B1 /* TemplatesUITests.swift */; };
 		FC595DD31E1C22FA007A07B1 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */; };
+		FC595DD51E1C2409007A07B1 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595DD41E1C2409007A07B1 /* Typealiases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FC595DC41E1C22E1007A07B1 /* TemplatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesUITests.swift; sourceTree = "<group>"; };
 		FC595DC61E1C22E1007A07B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		FC595DD41E1C2409007A07B1 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FC595DA11E1C22E0007A07B1 /* AppDelegate.swift */,
 				FC595DA31E1C22E0007A07B1 /* ViewController.swift */,
 				FC595DD21E1C22FA007A07B1 /* ViewControllerExtensions.swift */,
+				FC595DD41E1C2409007A07B1 /* Typealiases.swift */,
 				FC595DA51E1C22E0007A07B1 /* Main.storyboard */,
 				FC595DAB1E1C22E0007A07B1 /* Assets.xcassets */,
 				FC595DAD1E1C22E0007A07B1 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				FC595DD31E1C22FA007A07B1 /* ViewControllerExtensions.swift in Sources */,
 				FC595DA41E1C22E0007A07B1 /* ViewController.swift in Sources */,
+				FC595DD51E1C2409007A07B1 /* Typealiases.swift in Sources */,
 				FC595DA21E1C22E0007A07B1 /* AppDelegate.swift in Sources */,
 				FC595DAA1E1C22E0007A07B1 /* Templates.xcdatamodeld in Sources */,
 			);
