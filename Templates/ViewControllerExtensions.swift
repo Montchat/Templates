@@ -14,7 +14,7 @@ extension UIViewController {
 	
 	func presentSimpleAlert(withTitle title:Title, andMessage message:Message) {
 		
-		dispatch_async(dispatch_get_main_queue()) {
+		dispatch(dispatch_get_main_queue()) {
 			
 			let alertVC = UIAlertController(title: title, message: message, preferredStyle: .Alert)
 			let cancel = UIAlertAction(title: "Ok", style: .Cancel, handler: nil)
