@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension Array {
+	var last: Element  {
+		return self[endIndex - 1]
+	}
+}
