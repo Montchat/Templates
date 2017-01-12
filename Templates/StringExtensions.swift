@@ -31,4 +31,9 @@ extension String {
 		
 	}
 	
+	var digits: String {
+		return components(separatedBy: NSCharacterSet.decimalDigits.inverted).joined(separator: "")
+		
+	}
+	
 }
