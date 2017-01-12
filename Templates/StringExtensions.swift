@@ -31,9 +31,30 @@ extension String {
 		
 	}
 	
-	var digits: String {
+	var decimalDigits: String {
 		return components(separatedBy: NSCharacterSet.decimalDigits.inverted).joined(separator: "")
 		
+	}
+	
+	var formattedAsPhoneNumber: String {
+		var result = ""
+		if characters.count < 3 {
+			result = "(" + self
+		}
+		else if characters.count < 6 {
+			let numberIndex = index(startIndex, offsetBy: 3)
+			result = ""
+			//MARK: NEED TO FINISH
+			
+		}
+		else {
+			let firstBreak = index(startIndex, offsetBy: 3)
+			let secondBreak = index(startIndex, offsetBy: 6)
+			//MARK: NEED TO FINISH
+			result = ""
+			
+		}
+		return result
 	}
 	
 }
